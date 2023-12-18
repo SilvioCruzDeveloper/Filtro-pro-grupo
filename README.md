@@ -36,7 +36,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ## Autor
 
-Este site foi criado por [Seu Nome].
+Este site foi criado por *Silvio Cruz*.
 
 ---
 
