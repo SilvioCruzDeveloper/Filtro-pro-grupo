@@ -39,5 +39,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 Este site foi criado por *Silvio Cruz*.
 
 ---
-
-**Aviso:** Este é apenas um exemplo básico. Lembre-se de substituir "[Seu Nome]" pelo seu nome ou o nome do autor real, e incluir informações adicionais conforme necessário.
