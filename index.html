@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo de Programadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="quiz-container">
+    <img src="https://gist.githubusercontent.com/mahmudinm/47588cab5af928d2c8a2976d90216ea7/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" alt="">
+    <h1>Filtro do Grupo</h1>
+    <p>Responda às seguintes perguntas para entrar no grupo:</p>
+    
+    <form id="quiz-form">
+        <label for="q1">Pergunta 1: O que é HTML?</label><br>
+        <input type="radio" name="q1" value="a"> Linguagem de Programação<br>
+        <input type="radio" name="q1" value="b"> HyperText Markup Language<br>
+        <input type="radio" name="q1" value="c"> HighTech Machine Learning<br><br>
+
+        <label for="q2">Pergunta 2: Qual é a linguagem de programação mais popular do mundo?</label><br>
+        <input type="radio" name="q2" value="a"> Python<br>
+        <input type="radio" name="q2" value="b"> Java<br>
+        <input type="radio" name="q2" value="c"> C++<br><br>
+
+        <label for="q3">Pergunta 3: Qual é a função do CSS?</label><br>
+        <input type="radio" name="q3" value="a"> Controle de versões<br>
+        <input type="radio" name="q3" value="b"> Estilizar elementos HTML<br>
+        <input type="radio" name="q3" value="c"> Realizar operações matemáticas<br><br>
+
+        <label for="q4">Pergunta 4: O que significa a sigla "API"?</label><br>
+        <input type="radio" name="q4" value="a"> Advanced Programming Interface<br>
+        <input type="radio" name="q4" value="b"> Application Programming Interface<br>
+        <input type="radio" name="q4" value="c"> Automated Processing Integration<br><br>
+
+        <label for="q5">Pergunta 5: Em que ano foi lançada a linguagem de programação Python?</label><br>
+        <input type="radio" name="q5" value="a"> 1989<br>
+        <input type="radio" name="q5" value="b"> 2000<br>
+        <input type="radio" name="q5" value="c"> 2010<br><br>
+
+        <label for="q6">Pergunta 6: Qual dos seguintes não é um banco de dados relacional?</label><br>
+        <input type="radio" name="q6" value="a"> MySQL<br>
+        <input type="radio" name="q6" value="b"> MongoDB<br>
+        <input type="radio" name="q6" value="c"> PostgreSQL<br><br>
+
+        <label for="q7">Pergunta 7: O que é Git?</label><br>
+        <input type="radio" name="q7" value="a"> Um sistema de gerenciamento de banco de dados<br>
+        <input type="radio" name="q7" value="b"> Um sistema de controle de versão<br>
+        <input type="radio" name="q7" value="c"> Uma linguagem de programação<br><br>
+
+        <button type="button" onclick="checkAnswers()">Verificar Respostas</button>
+    </form>
+
+    <div id="result"></div>
+
+    <div id="link-container">
+        <a id="link" href="https://chat.whatsapp.com/HE9lxtdxdCkDTOjjhOHKpP">Entrar no Grupo</a>
+    </div>
+</div>
+<footer>
+    <p>Se você realmente é bom, nem sei por que você está respondendo às perguntas.</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
