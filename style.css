@@ -5,7 +5,7 @@ body {
 }
 
 #quiz-container {
-  max-width: 600px;
+  max-width: 80%;
   margin: 50px auto;
   padding: 20px;
   background-color: #ffffff;
@@ -13,14 +13,17 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-img {
-  margin: 10px auto;
-  display: block;
+span img{
   width: 300px;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  border: #00000000;
+}
+img {
+  margin: 1px;
+  display: inline-block;
+  width: 200px;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 5px;
 }
 
 h1 {
@@ -118,4 +121,7 @@ button:hover {
 
 a {
   text-decoration: none;
+}
+#card-body{
+  margin: 10px;
 }
