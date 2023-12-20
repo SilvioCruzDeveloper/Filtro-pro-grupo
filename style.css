@@ -6,21 +6,21 @@ body {
 
 #quiz-container {
   max-width: 100%;
-  margin: 50px auto;
+  margin: 60px 0;
+
   padding: 20px;
-  background-color: #ffffff;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(231, 231, 231);
 }
+
 span img {
   width: 300px;
   margin: auto;
   border: #00000000;
 }
+
 img {
   margin: 1px;
-  display: inline-block;
+  margin: auto;
   width: 200px;
   border: 1px solid rgb(173, 173, 173);
   border-radius: 5px;
@@ -30,6 +30,8 @@ h1 {
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 24px;
+  margin: 1px;
+  padding: 1px;
 }
 
 h1:hover {
@@ -37,10 +39,12 @@ h1:hover {
 }
 
 p {
+  margin: 10% auto;
   font-size: 1.5em;
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 16px;
+  background-color: #00000000;
 }
 
 form {
@@ -58,6 +62,8 @@ input {
   margin-bottom: 10px;
   width: 30px;
   height: 30px;
+  display: block;
+  margin: auto;
 }
 
 button {
@@ -67,6 +73,8 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  display: block;
+  margin: auto;
 }
 
 button:hover {
@@ -78,6 +86,7 @@ button:hover {
   color: rgb(62, 62, 62);
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
 }
 
 #link-container {
@@ -101,7 +110,7 @@ button:hover {
 
 #hacker-button {
   width: 100%;
-  display: inline-block;
+  display: block;
   padding: 10px 20px;
   font-size: 16px;
   text-align: center;
@@ -111,6 +120,7 @@ button:hover {
   border: 2px solid #272727;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s, border 0.3s;
+  margin: auto;
 }
 
 #hacker-button:hover {
@@ -119,9 +129,33 @@ button:hover {
   border: 2px solid #7d7d7d;
 }
 
-a {
-  text-decoration: none;
-}
 #card-body {
   margin: 10px;
+}
+
+#bord-ctt img {
+  display: inline-block;
+  width: 50px;
+  border: 1px solid #ffffff;
+}
+
+#bord-ctt {
+  height: 100px;
+  width: auto;
+  border-radius: 5px;
+  padding: 10px ;
+  margin: 6% ;
+  text-align: center;
+}
+
+#bord-ctt:hover {
+  box-shadow: 0 0 5px #ccc;
+}
+
+#bord-ctt:active {
+  box-shadow: 0 0 5px #585858;
+}
+
+h5 {
+  display: inline-block;
 }
