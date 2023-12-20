@@ -140,22 +140,26 @@ button:hover {
 }
 
 #bord-ctt {
+  border: 1px solid #ffffff69;
   height: 100px;
   width: auto;
   border-radius: 5px;
-  padding: 10px ;
-  margin: 6% ;
+  padding: 20px auto; ;
+  margin: 20px auto;
   text-align: center;
 }
-
+#bord-ctt img{
+  margin: 5px;
+}
 #bord-ctt:hover {
-  box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #cccccc;
 }
 
 #bord-ctt:active {
-  box-shadow: 0 0 5px #585858;
+  box-shadow: 0 0 5px #a5a5a5;
 }
-
-h5 {
+#bord-ctt h5 {
   display: inline-block;
+  padding: 20px auto; ;
+  margin: 20px auto;
 }
