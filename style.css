@@ -13,23 +13,26 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
 }
+
 img {
-    border: ;
   margin: 10px auto;
   display: block;
   width: 300px;
   border: 2px solid #0f0;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Adição da borda neom verde */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
 }
+
 h1 {
   color: #0f0;
   text-align: center;
   font-size: 24px;
 }
-h1:hover{
+
+h1:hover {
   color: rgb(0, 255, 55);
 }
+
 p {
   font-size: 1.5em;
   color: #0f0;
@@ -50,8 +53,8 @@ label {
 
 input {
   margin-bottom: 10px;
-  width: 30px; /* Ajuste a largura conforme necessário */
-  height: 30px; /* Ajuste a altura conforme necessário */
+  width: 30px;
+  height: 30px;
 }
 
 button {
@@ -71,6 +74,7 @@ button:hover {
   margin-top: 20px;
   color: #0f0;
   font-size: 18px;
+  font-weight: bold;
 }
 
 #link-container {
@@ -92,32 +96,6 @@ button:hover {
   background-color: #008000;
 }
 
-#quiz-container {
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: #000000;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#result {
-  margin-top: 20px;
-  font-weight: bold;
-}
-
-#link-container {
-  margin-top: 20px;
-}
-
-#link {
-  display: none;
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
 #hacker-button {
   width: 100%;
   display: inline-block;
@@ -137,7 +115,7 @@ button:hover {
   color: #fff;
   border: 2px solid #7d7d7d;
 }
-a{
- text-decoration: none;
-}
 
+a {
+  text-decoration: none;
+}
