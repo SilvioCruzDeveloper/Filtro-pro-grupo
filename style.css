@@ -39,7 +39,8 @@ h1:hover {
 }
 
 p {
-  margin: 10% auto;
+  padding: 5%;
+  margin: 20% auto;
   font-size: 1.5em;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -80,7 +81,6 @@ button {
 button:hover {
   background-color: #353535;
 }
-
 #result {
   margin-top: 20px;
   color: rgb(62, 62, 62);
